@@ -21,8 +21,10 @@ def save_results():
     logger.log("App2 is saving results...")
 
 
+# Define the function first
 def monitor_performance():
-    # Get the singleton logger instance
     logger = LoggerSingleton()
-    # Log a performance monitoring message
     logger.log("Monitoring system performance...")
+
+# Then call it
+
