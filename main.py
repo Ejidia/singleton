@@ -1,8 +1,8 @@
 # main.py
 # Main entry point that calls both modules (app1 and app2)
 
-from app1 import process_data
-from app2 import save_results
+from app1 import process_data,save_results
+
 
 def main():
     # Call function from app1
