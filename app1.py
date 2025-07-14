@@ -20,3 +20,9 @@ def save_results():
     # Log a different message
     logger.log("App2 is saving results...")
 
+
+def monitor_performance():
+    # Get the singleton logger instance
+    logger = LoggerSingleton()
+    # Log a performance monitoring message
+    logger.log("Monitoring system performance...")

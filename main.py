@@ -11,6 +11,9 @@ def main():
     # Call function from app2
     save_results()
 
+    #call function from app2
+    monitor_performance()
+
 # Run only if this script is executed directly
 if __name__ == "__main__":
     main()
